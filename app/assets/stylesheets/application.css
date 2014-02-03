@@ -1,6 +1,6 @@
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
+ * listed below.hea
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
  * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
@@ -11,3 +11,60 @@
  *= require_self
  *= require_tree .
  */
+
+  
+ 
+/* h1 + p designe p:("application solidaire")*/
+h1 + p{
+	font-size: 26px;
+	margin-top: -20px;
+	margin-bottom: -4px;
+}
+.click{
+	float: right;
+	position: relative;
+	top: 30px;
+}
+
+header{
+	background-color: #E0F8EC ;
+}
+
+.container{
+	padding: 0px ;
+	margin: -20px 0px 0px 0px ;
+}
+
+p:first-child{ 
+	text-align: center;
+	background-color: #E0F8EC;
+}
+
+h3{
+	text-align: center; 
+}
+.antigaspi{
+	display: block;
+	height: 100px;
+	width: 200px;
+	margin-left: 90px;
+}
+
+.partager{
+	display: block;
+	height: 100px;
+	width: 200px;
+	margin-left: 60px;
+}
+.rapprocher{
+	display: block;
+	height: 100px;
+	width: 200px;
+	margin-left: 
+}
+.antigaspi + p{
+	margin-left: 90px;
+}
+.partager + p{
+	margin-left: 60px;
+}
